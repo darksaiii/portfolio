@@ -1,5 +1,3 @@
-import React from 'react'
-import Image from "next/image"
 import { FigmaSVG } from "@/public"
 ;
 const hero = () => {
@@ -7,13 +5,13 @@ const hero = () => {
     <div>
         <div className="pl-8 pr-8 pt-16 pb-16 flex flex-col gap-4">
             <div className=''>
-                <h1 className="text-sm font-bold mb-6">
-                I'm Kairen [Atanu].
+                <h1 className="text-lg font-bold mb-6 text-white">
+                I&apos;m Kairen [Atanu].
                 </h1>
             </div>
             <div className='text-sm text-(--secondary-text) text-justify flex flex-wrap gap-1 leading-6'>
                 <p className='inline font-medium text-sm/6 text dark:text-neutral-400 text-neutral-600'>
-                    I'm a
+                    I&apos;m a
                 </p>
                 <p className='inline font-medium text-sm/6 text dark:text-neutral-100 text-neutral-600'>
                     Design
@@ -27,7 +25,7 @@ const hero = () => {
                     </p>
                 </div>
                 <p className='font-medium text-sm/6 text dark:text-neutral-400 text-neutral-600'>
-                    I love 
+                    I love
                 </p>
                 <p className='font-medium text-sm/6 text dark:text-neutral-100 text-neutral-600'>
                     Design, Code
@@ -35,9 +33,9 @@ const hero = () => {
                 <p className='font-medium text-sm/6 text dark:text-neutral-400 text-neutral-600'>
                     and
                 </p>
-                <p className='font-medium text-sm/6 text dark:text-neutral-400 text-neutral-600'>
+                <span className='font-medium text-sm/6 text dark:text-neutral-400 text-neutral-600'>
                     Motion.
-                </p>
+                </span>
                 <p className='font-medium text-sm/6 text dark:text-neutral-400 text-neutral-600'>
                     Also currently exploring about
                 </p>
@@ -52,12 +50,12 @@ const hero = () => {
                 </p>
 
 
-                <div>
-                    <p className='font-medium text-sm/6 text dark:text-neutral-100 text-neutral-600'>
-                        I like to build things that makes live easy. My Daily go to tools are 
+                <span className="flex gap-1 dark:text-neutral-100 text-neutral-600">
+                    <p className='font-medium text-sm/6'>
+                        I like to build things that makes live easy. My Daily go to tools are
                     </p>
-                     <FigmaSVG />          
-                </div>
+                     <FigmaSVG className="w-4 aspect-square" /> Figma
+                </span>
                 </div>
         </div>
     </div>
